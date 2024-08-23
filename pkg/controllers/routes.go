@@ -36,6 +36,7 @@ func RunRoutes() error {
 		operationsG.GET("/:id", GetOperationByID)
 		operationsG.PUT("/:id")
 		operationsG.DELETE("/:id")
+		operationsG.PATCH("/:id")
 	}
 
 	operationTypesG := router.Group("/operation-types")
