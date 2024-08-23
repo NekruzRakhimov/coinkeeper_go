@@ -1,0 +1,5 @@
+2024/08/19 19:12:06.527016 [repository.CreateUser] error creating user: ERROR: duplicate key value violates unique constraint "uni_users_full_name" (SQLSTATE 23505)
+ERROR: 2024/08/21 16:11:09 users.go:50: [repository.CreateUser] error creating user: ERROR: duplicate key value violates unique constraint "uni_users_username" (SQLSTATE 23505)
+ERROR: 2024/08/21 16:11:24 users.go:31: [repository.GetUserByUsername] error getting user by username: record not found
+ERROR: 2024/08/21 18:27:44 users.go:31: [repository.GetUserByUsername] error getting user by username: record not found
+ERROR: 2024/08/21 18:49:56 users.go:31: [repository.GetUserByUsername] error getting user by username: record not found
