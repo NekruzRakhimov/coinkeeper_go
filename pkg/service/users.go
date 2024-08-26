@@ -1,6 +1,7 @@
 package service
 
 import (
+	"coinkeeper/errs"
 	"coinkeeper/models"
 	"coinkeeper/pkg/repository"
 	"coinkeeper/utils"
@@ -28,9 +29,13 @@ func GetUserByID(id uint) (user models.User, err error) {
 
 func CreateUser(user models.User) error {
 	// 1. Check username uniqueness
-	_, err := repository.GetUserByUsername(user.Username)
+	userFromDB, err := repository.GetUserByUsername(user.Username)
 	if err != nil && !errors.Is(err, gorm.ErrRecordNotFound) {
 		return err
+	}
+
+	if userFromDB.ID > 0 {
+		return errs.ErrUsernameUniquenessFailed
 	}
 
 	// 2. Generate password hash

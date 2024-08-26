@@ -735,3 +735,369 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 [GIN] 2024/08/21 - 19:20:55 | 401 |     228.166µs |             ::1 | GET      "/operations"
 [GIN] 2024/08/21 - 19:21:20 | 401 |      190.25µs |             ::1 | GET      "/operations"
 [GIN] 2024/08/21 - 19:21:36 | 200 |     4.75075ms |             ::1 | GET      "/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 8181
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN] 2024/08/26 - 17:03:07 | 201 |  221.360041ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN] 2024/08/26 - 17:03:15 | 200 |    5.095167ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:03:47 | 200 |    3.146083ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:04:01 | 401 |    1.648667ms |       127.0.0.1 | GET      "/operations"
+[GIN] 2024/08/26 - 17:04:39 | 200 |    3.257709ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN] 2024/08/26 - 17:05:07 | 200 |    3.835292ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:05:08 | 200 |    1.428167ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:05:08 | 200 |       538.5µs |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:05:27 | 500 |    9.042666ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN] 2024/08/26 - 17:10:16 | 201 |   93.281291ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN] 2024/08/26 - 17:10:32 | 404 |         750ns |       127.0.0.1 | GET      "/auth/sign-in"
+[GIN] 2024/08/26 - 17:10:48 | 200 |   13.705709ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN] 2024/08/26 - 17:11:30 | 400 |     121.958µs |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:11:43 | 500 |    2.679125ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN] 2024/08/26 - 17:15:12 | 200 |    3.971042ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:15:29 | 200 |    4.333042ms |       127.0.0.1 | GET      "/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN] 2024/08/26 - 17:17:33 | 201 |   10.865959ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN] 2024/08/26 - 17:17:38 | 200 |    2.133542ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN] 2024/08/26 - 17:18:53 | 500 |    6.852083ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8181
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/26 - 19:16:12 | 201 |   52.867708ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN] 2024/08/26 - 19:16:15 | 500 |    4.960708ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/26 - 19:16:59 | 500 |     4.79225ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/26 - 19:18:44 | 500 |    3.969667ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/26 - 19:27:27 | 400 |    3.333292ms |       127.0.0.1 | POST     "/auth/sign-up"

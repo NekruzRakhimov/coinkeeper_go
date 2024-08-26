@@ -3,7 +3,6 @@ package repository
 import (
 	"coinkeeper/db"
 	"coinkeeper/models"
-	"fmt"
 )
 
 func AddOperation(o models.Operation) error {
@@ -18,7 +17,7 @@ func GetAllOperations(userID uint) ([]models.Operation, error) {
 		Order("operations.id").
 		Find(&operations).Error
 	if err != nil {
-		return nil, err
+		return nil, translateError(err)
 	}
 	return operations, nil
 }
@@ -29,26 +28,16 @@ func GetOperationByID(userID, operationID uint) (o models.Operation, err error) 
 		Where("operations.user_id = ? AND operations.id = ?", userID, operationID).
 		First(&o).Error
 	if err != nil {
-		return models.Operation{}, err
+		return models.Operation{}, translateError(err)
 	}
 	return o, nil
-}
-
-func GetTotalByOperationType(operationTypeID int) (total float64, err error) {
-	err = db.GetDBConn().Raw(db.GetTotalAmountByOperationType, operationTypeID).Pluck("sum", &total).Error
-	if err != nil {
-		fmt.Println(err.Error())
-		return 0, err
-	}
-
-	return total, nil
 }
 
 func UpdateOperation(o models.Operation) error {
 
 	err := db.GetDBConn().Save(&o).Error
 	if err != nil {
-		return err
+		return translateError(err)
 	}
 
 	return nil

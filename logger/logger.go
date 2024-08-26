@@ -1,6 +1,8 @@
 package logger
 
 import (
+	"coinkeeper/configs"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"io"
@@ -16,20 +18,11 @@ var (
 	Debug *log.Logger
 )
 
-const (
-	LogInfo       = "logs/info.log"
-	LogError      = "logs/error.log"
-	LogWarning    = "logs/warning.log"
-	LogDebug      = "logs/debug.log"
-	LogMaxSize    = 25
-	LogMaxBackups = 5
-	LogMaxAge     = 30
-	LogCompress   = true
-)
-
 func Init() error {
-	if _, err := os.Stat("logs"); os.IsNotExist(err) {
-		err = os.Mkdir("logs", 0755)
+	logParams := configs.AppSettings.LogParams
+
+	if _, err := os.Stat(logParams.LogDirectory); os.IsNotExist(err) {
+		err = os.Mkdir(logParams.LogDirectory, 0755)
 		if err != nil {
 			return err
 		}
@@ -37,39 +30,39 @@ func Init() error {
 
 	// Инициализация логгеров lumberjack
 	lumberLogInfo := &lumberjack.Logger{
-		Filename:   LogInfo,
-		MaxSize:    LogMaxSize, // мегабайты
-		MaxBackups: LogMaxBackups,
-		MaxAge:     LogMaxAge,   // дни
-		Compress:   LogCompress, // отключено по умолчанию
-		LocalTime:  true,
+		Filename:   fmt.Sprintf("%s/%s", logParams.LogDirectory, logParams.LogInfo),
+		MaxSize:    logParams.MaxSizeMegabytes, // мегабайты
+		MaxBackups: logParams.MaxBackups,
+		MaxAge:     logParams.MaxAge,   // дни
+		Compress:   logParams.Compress, // отключено по умолчанию
+		LocalTime:  logParams.LocalTime,
 	}
 
 	lumberLogError := &lumberjack.Logger{
-		Filename:   LogError,
-		MaxSize:    LogMaxSize, // мегабайты
-		MaxBackups: LogMaxBackups,
-		MaxAge:     LogMaxAge,   // дни
-		Compress:   LogCompress, // отключено по умолчанию
-		LocalTime:  true,
+		Filename:   fmt.Sprintf("%s/%s", logParams.LogDirectory, logParams.LogError),
+		MaxSize:    logParams.MaxSizeMegabytes, // мегабайты
+		MaxBackups: logParams.MaxBackups,
+		MaxAge:     logParams.MaxAge,   // дни
+		Compress:   logParams.Compress, // отключено по умолчанию
+		LocalTime:  logParams.LocalTime,
 	}
 
 	lumberLogWarn := &lumberjack.Logger{
-		Filename:   LogWarning,
-		MaxSize:    LogMaxSize, // мегабайты
-		MaxBackups: LogMaxBackups,
-		MaxAge:     LogMaxAge,   // дни
-		Compress:   LogCompress, // отключено по умолчанию
-		LocalTime:  true,
+		Filename:   fmt.Sprintf("%s/%s", logParams.LogDirectory, logParams.LogWarn),
+		MaxSize:    logParams.MaxSizeMegabytes, // мегабайты
+		MaxBackups: logParams.MaxBackups,
+		MaxAge:     logParams.MaxAge,   // дни
+		Compress:   logParams.Compress, // отключено по умолчанию
+		LocalTime:  logParams.LocalTime,
 	}
 
 	lumberLogDebug := &lumberjack.Logger{
-		Filename:   LogDebug,
-		MaxSize:    LogMaxSize, // мегабайты
-		MaxBackups: LogMaxBackups,
-		MaxAge:     LogMaxAge,   // дни
-		Compress:   LogCompress, // отключено по умолчанию
-		LocalTime:  true,
+		Filename:   fmt.Sprintf("%s/%s", logParams.LogDirectory, logParams.LogDebug),
+		MaxSize:    logParams.MaxSizeMegabytes, // мегабайты
+		MaxBackups: logParams.MaxBackups,
+		MaxAge:     logParams.MaxAge,   // дни
+		Compress:   logParams.Compress, // отключено по умолчанию
+		LocalTime:  logParams.LocalTime,
 	}
 
 	// Инициализация глобальных логгеров

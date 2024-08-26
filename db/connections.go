@@ -1,16 +1,29 @@
 package db
 
 import (
+	"coinkeeper/configs"
 	"fmt"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
+	"os"
 )
 
 var dbConn *gorm.DB
 
 func ConnectToDB() error {
-	connStr := "host=localhost port=5432 user=postgres dbname=coinkeeper_db password=postgres"
+
+	connStr := fmt.Sprintf(`host=%s 
+									port=%s 
+									user=%s 
+									dbname=%s 
+									password=%s`,
+		configs.AppSettings.PostgresParams.Host,
+		configs.AppSettings.PostgresParams.Port,
+		configs.AppSettings.PostgresParams.User,
+		configs.AppSettings.PostgresParams.Database,
+		os.Getenv("DB_PASSWORD"),
+	)
 
 	db, err := gorm.Open(postgres.Open(connStr), &gorm.Config{})
 	if err != nil {
