@@ -4,6 +4,7 @@ import (
 	"coinkeeper/db"
 	"coinkeeper/logger"
 	"coinkeeper/models"
+	"gorm.io/gorm"
 )
 
 func GetAllUsers() (users []models.User, err error) {
@@ -37,6 +38,8 @@ func GetUserByUsername(username string) (user models.User, err error) {
 
 func GetUserByUsernameAndPassword(username string, password string) (user models.User, err error) {
 	err = db.GetDBConn().Where("username = ? AND password = ?", username, password).First(&user).Error
+	logger.Debug.Println("err: ", err.Error())
+	logger.Debug.Println("err: ", gorm.ErrRecordNotFound.Error())
 	if err != nil {
 		logger.Error.Printf("[repository.GetUserByUsernameAndPassword] error getting user by username and password: %v\n", err)
 		return user, translateError(err)

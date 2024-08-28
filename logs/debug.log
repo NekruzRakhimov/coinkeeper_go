@@ -1,0 +1,7 @@
+DEBUG: 2024/08/28 19:15:35 auth.go:14: error record not found
+DEBUG: 2024/08/28 19:18:38 gorm.go:11: errors.Is(err, gorm.ErrRecordNotFound):  false
+DEBUG: 2024/08/28 19:18:38 auth.go:14: error record not found
+DEBUG: 2024/08/28 19:20:46 users.go:41: err:  record not found
+DEBUG: 2024/08/28 19:20:46 users.go:42: err:  record not found
+DEBUG: 2024/08/28 19:20:46 gorm.go:11: errors.Is(err, gorm.ErrRecordNotFound):  true
+DEBUG: 2024/08/28 19:20:46 auth.go:14: error ErrRecordNotFound

@@ -3,7 +3,7 @@ package repository
 import (
 	"coinkeeper/errs"
 	"errors"
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 )
 
 func translateError(err error) error {

@@ -6,7 +6,6 @@ import (
 	"coinkeeper/pkg/repository"
 	"coinkeeper/utils"
 	"errors"
-	"gorm.io/gorm"
 )
 
 func GetAllUsers() (users []models.User, err error) {
@@ -30,7 +29,7 @@ func GetUserByID(id uint) (user models.User, err error) {
 func CreateUser(user models.User) error {
 	// 1. Check username uniqueness
 	userFromDB, err := repository.GetUserByUsername(user.Username)
-	if err != nil && !errors.Is(err, gorm.ErrRecordNotFound) {
+	if err != nil && !errors.Is(err, errs.ErrRecordNotFound) {
 		return err
 	}
 

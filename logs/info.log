@@ -1101,3 +1101,47 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
  - using code:	gin.SetMode(gin.ReleaseMode)
 
 [GIN] 2024/08/26 - 19:27:27 | 400 |    3.333292ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/28 - 18:57:10 | 400 |    2.111334ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN] 2024/08/28 - 19:09:19 | 201 |   50.124875ms |       127.0.0.1 | POST     "/auth/sign-up"
+[GIN] 2024/08/28 - 19:09:29 | 500 |    3.029166ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/28 - 19:10:17 | 500 |    2.852166ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/28 - 19:13:56 | 500 |    3.123291ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/28 - 19:15:35 | 500 |    3.320125ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/28 - 19:18:38 | 500 |    1.796209ms |       127.0.0.1 | POST     "/auth/sign-in"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/28 - 19:20:46 | 400 |    1.846625ms |       127.0.0.1 | POST     "/auth/sign-in"

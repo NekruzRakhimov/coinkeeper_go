@@ -11,3 +11,10 @@ ERROR: 2024/08/26 17:18:53 users.go:50: [repository.CreateUser] error creating u
 ERROR: 2024/08/26 19:16:12 users.go:31: [repository.GetUserByUsername] error getting user by username: record not found
 ERROR: 2024/08/26 19:16:15 users.go:50: [repository.CreateUser] error creating user: ERROR: duplicate key value violates unique constraint "uni_users_username" (SQLSTATE 23505)
 ERROR: 2024/08/26 19:16:59 users.go:50: [repository.CreateUser] error creating user: ERROR: duplicate key value violates unique constraint "uni_users_username" (SQLSTATE 23505)
+ERROR: 2024/08/28 19:09:19 users.go:31: [repository.GetUserByUsername] error getting user by username: record not found
+ERROR: 2024/08/28 19:09:29 users.go:41: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
+ERROR: 2024/08/28 19:10:17 users.go:41: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
+ERROR: 2024/08/28 19:13:56 users.go:41: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
+ERROR: 2024/08/28 19:15:35 users.go:41: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
+ERROR: 2024/08/28 19:18:38 users.go:41: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
+ERROR: 2024/08/28 19:20:46 users.go:44: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
