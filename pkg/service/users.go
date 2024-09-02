@@ -37,6 +37,8 @@ func CreateUser(user models.User) error {
 		return errs.ErrUsernameUniquenessFailed
 	}
 
+	user.Role = "user"
+
 	// 2. Generate password hash
 	user.Password = utils.GenerateHash(user.Password)
 

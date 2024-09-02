@@ -10,7 +10,7 @@ import (
 func RunRoutes() error {
 	router := gin.Default()
 	gin.SetMode(configs.AppSettings.AppParams.GinMode)
-	
+
 	router.GET("/ping", PingPong)
 
 	auth := router.Group("/auth")
@@ -35,9 +35,9 @@ func RunRoutes() error {
 	operationsG := router.Group("/operations", checkUserAuthentication)
 	{
 		operationsG.GET("", GetAllOperations)
-		operationsG.POST("")
+		operationsG.POST("", CreateOperation)
 		operationsG.GET("/:id", GetOperationByID)
-		operationsG.PUT("/:id")
+		operationsG.PUT("/:id", UpdateOperation) // admin permitted only
 		operationsG.DELETE("/:id")
 		operationsG.PATCH("/:id")
 	}

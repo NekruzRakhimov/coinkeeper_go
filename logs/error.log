@@ -20,3 +20,5 @@ ERROR: 2024/08/28 19:18:38 users.go:41: [repository.GetUserByUsernameAndPassword
 ERROR: 2024/08/28 19:20:46 users.go:44: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
 ERROR: 2024/09/02 18:46:02 users.go:44: [repository.GetUserByUsernameAndPassword] error getting user by username and password: record not found
 ERROR: 2024/09/02 18:47:28 users.go:32: [repository.GetUserByUsername] error getting user by username: record not found
+ERROR: 2024/09/02 19:14:14 users.go:31: [repository.GetUserByUsername] error getting user by username: record not found
+ERROR: 2024/09/02 19:14:51 users.go:31: [repository.GetUserByUsername] error getting user by username: record not found

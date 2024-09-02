@@ -5,7 +5,8 @@ import (
 	"coinkeeper/models"
 )
 
-func AddOperation(o models.Operation) error {
+func CreateOperation(o models.Operation) error {
+
 	return nil
 }
 

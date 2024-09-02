@@ -22,3 +22,19 @@ func GetOperationByID(userID, operationID uint) (o models.Operation, err error) 
 
 	return o, nil
 }
+
+func CreateOperation(o models.Operation) error {
+	if err := repository.CreateOperation(o); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func UpdateOperation(o models.Operation) error {
+	if err := repository.UpdateOperation(o); err != nil {
+		return err
+	}
+
+	return nil
+}
