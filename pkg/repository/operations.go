@@ -9,11 +9,14 @@ func AddOperation(o models.Operation) error {
 	return nil
 }
 
-func GetAllOperations(userID uint) ([]models.Operation, error) {
+func GetAllOperations(userID uint, query string) ([]models.Operation, error) {
 	var operations []models.Operation
+
+	query = "%" + query + "%"
+
 	err := db.GetDBConn().Model(&models.Operation{}).
 		Joins("JOIN users ON users.id = operations.user_id").
-		Where("operations.user_id = ?", userID).
+		Where("operations.user_id = ? AND description iLIKE ?", userID, query).
 		Order("operations.id").
 		Find(&operations).Error
 	if err != nil {

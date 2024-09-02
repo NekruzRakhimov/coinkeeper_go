@@ -16,7 +16,7 @@
     "local_time": true
   },
   "app_params": {
-    "gin_mode": "release",
+    "gin_mode": "debug",
     "port_run": "8181",
     "server_url": "localhost",
     "server_name": "coinkeeper_service"

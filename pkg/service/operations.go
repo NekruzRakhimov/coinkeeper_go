@@ -5,8 +5,8 @@ import (
 	"coinkeeper/pkg/repository"
 )
 
-func GetAllOperations(userID uint) (operations []models.Operation, err error) {
-	operations, err = repository.GetAllOperations(userID)
+func GetAllOperations(userID uint, query string) (operations []models.Operation, err error) {
+	operations, err = repository.GetAllOperations(userID, query)
 	if err != nil {
 		return nil, err
 	}

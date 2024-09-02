@@ -36,6 +36,29 @@ func main() {
 		panic(err)
 	}
 
+	//MainServer := new(server.Server)
+	//go func() {
+	//	if err := MainServer.Run(configs.AppSettings.AppParams.PortRun, handlers.InitRoutes()); err != nil {
+	//		log.Fatalf("Error while running http server. Error is %s", err.Error())
+	//	}
+	//}()
+	//fmt.Println("TodoApp Started its work")
+	//fmt.Printf("Server is listening port: %s\n", configs.AppSettings.AppParams.PortRun)
+	//quit := make(chan os.Signal, 1)
+	//signal.Notify(quit, syscall.SIGTERM, syscall.SIGINT)
+	//<-quit
+	///**********************************************************/
+	//
+	///***************** Shutting App Down *****************/
+	//fmt.Println("TodoApp Shutting Down")
+	//if err := MainServer.Shutdown(context.Background()); err != nil {
+	//	log.Fatalf("error while shutting server down. Error is: %s", err.Error())
+	//}
+	//
+	//if err := db.GetDBConn().Close(); err != nil {
+	//	log.Fatalf("error while closing DB. Error is: %s", err.Error())
+	//}
+
 	err = controllers.RunRoutes()
 	if err != nil {
 		return
