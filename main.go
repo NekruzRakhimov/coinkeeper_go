@@ -63,7 +63,7 @@ func main() {
 	signal.Notify(quit, syscall.SIGTERM, syscall.SIGINT)
 	<-quit
 
-	fmt.Println("Coinkeeper завершает работу")
+	fmt.Printf("\nНачало завершения программ\n")
 
 	// Закрытие соединения с БД, если необходимо
 	if sqlDB, err := db.GetDBConn().DB(); err == nil {
@@ -73,8 +73,12 @@ func main() {
 	} else {
 		log.Fatalf("Ошибка при получении *sql.DB из GORM: %s", err)
 	}
+	fmt.Println("Соединение с БД успешно закрыто")
 
 	if err = mainServer.Shutdown(context.Background()); err != nil {
 		log.Fatalf("Ошибка при завершении работы сервера: %s", err)
 	}
+
+	fmt.Println("HTTP-сервис успешно выключен")
+	fmt.Println("Конец завершения программы")
 }
