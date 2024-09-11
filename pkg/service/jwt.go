@@ -2,6 +2,7 @@ package service
 
 import (
 	"coinkeeper/configs"
+	"coinkeeper/logger"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
 	"os"
@@ -23,7 +24,7 @@ func GenerateToken(userID uint, username string, role string) (string, error) {
 		Username: username,
 		Role:     role,
 		StandardClaims: jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(time.Minute * 60).Unix(), // токен истекает через 1 час
+			ExpiresAt: int64(time.Duration(configs.AppSettings.AuthParams.JwtTtlMinutes) * time.Minute), // токен истекает через 1 час
 			Issuer:    configs.AppSettings.AppParams.ServerName,
 		},
 	}
@@ -43,6 +44,7 @@ func ParseToken(tokenString string) (*CustomClaims, error) {
 	})
 
 	if err != nil {
+		logger.Error.Println("[service.ParseToken] cannot parse token. Error is:", err.Error())
 		return nil, err
 	}
 
@@ -50,6 +52,7 @@ func ParseToken(tokenString string) (*CustomClaims, error) {
 		return claims, nil
 	}
 
+	logger.Error.Println("[service.ParseToken] invalid token")
 	return nil, fmt.Errorf("invalid token")
 }
 

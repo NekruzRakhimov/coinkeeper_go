@@ -1689,3 +1689,1237 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 [GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
 [GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
 [GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN] 2024/09/11 - 15:35:48 | 404 |         292ns |             ::1 | GET      "/"
+[GIN] 2024/09/11 - 15:35:48 | 404 |         250ns |             ::1 | GET      "/favicon.ico"
+[GIN-debug] redirecting request 301: /swagger/ --> /swagger/
+[GIN] 2024/09/11 - 15:35:51 | 404 |     382.667µs |             ::1 | GET      "/swagger/"
+[GIN] 2024/09/11 - 15:35:58 | 200 |    3.509625ms |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 15:35:58 | 200 |    1.592041ms |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 15:35:58 | 200 |       1.235ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 15:35:58 | 200 |    2.262791ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 15:35:58 | 200 |     973.375µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 15:35:58 | 200 |      31.917µs |             ::1 | GET      "/swagger/favicon-32x32.png"
+[GIN] 2024/09/11 - 15:35:58 | 200 |      19.708µs |             ::1 | GET      "/swagger/favicon-16x16.png"
+[GIN] 2024/09/11 - 15:36:13 | 401 |    6.649125ms |             ::1 | GET      "/operations"
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 400 with 500
+[GIN] 2024/09/11 - 15:36:27 | 400 |    6.205541ms |             ::1 | POST     "/auth/sign-up"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN] 2024/09/11 - 15:45:41 | 200 |     990.042µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 15:45:42 | 200 |    1.370209ms |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 15:45:42 | 200 |     330.625µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 15:45:42 | 200 |    1.224208ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 15:45:42 | 200 |      310.25µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 15:45:42 | 200 |      66.375µs |             ::1 | GET      "/swagger/favicon-16x16.png"
+[GIN] 2024/09/11 - 15:45:55 | 201 |  111.483292ms |             ::1 | POST     "/auth/sign-up"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN] 2024/09/11 - 15:48:27 | 200 |     626.833µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 15:48:27 | 200 |     348.875µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 15:48:27 | 200 |       393.5µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 15:48:27 | 200 |    8.366333ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 15:48:27 | 200 |     311.458µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 15:48:40 | 200 |   30.692625ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 15:48:59 | 200 |    3.154125ms |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 15:49:00 | 200 |     218.666µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN] 2024/09/11 - 15:53:13 | 200 |    1.567542ms |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 15:53:13 | 200 |     533.833µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 15:53:13 | 200 |    8.348417ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 15:53:13 | 200 |    3.974083ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 15:53:13 | 200 |     968.625µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 15:53:13 | 200 |      59.208µs |             ::1 | GET      "/swagger/favicon-16x16.png"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /users                    --> coinkeeper/pkg/controllers.GetAllUsers (3 handlers)
+[GIN-debug] GET    /users/:id                --> coinkeeper/pkg/controllers.GetUserByID (3 handlers)
+[GIN-debug] POST   /users                    --> coinkeeper/pkg/controllers.CreateUser (3 handlers)
+[GIN-debug] PUT    /users/:id                --> coinkeeper/pkg/controllers.UpdateUser (3 handlers)
+[GIN-debug] DELETE /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PATCH  /users/:id                --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operations               --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /operations               --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /operations/:id           --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /operations/:id           --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /operations/:id           --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-types          --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-types/:id      --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] POST   /operation-categories     --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] GET    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] PUT    /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN-debug] DELETE /operation-categories/:id --> github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1 (2 handlers)
+[GIN] 2024/09/11 - 15:56:37 | 200 |     907.416µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 15:56:37 | 200 |      1.3265ms |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 15:56:37 | 200 |     404.292µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 15:56:37 | 200 |    1.665209ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 15:56:37 | 200 |    1.720917ms |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 15:56:37 | 200 |        99.5µs |             ::1 | GET      "/swagger/favicon-16x16.png"
+[GIN] 2024/09/11 - 15:57:51 | 201 |   71.364667ms |             ::1 | POST     "/auth/sign-up"
+[GIN] 2024/09/11 - 15:57:59 | 200 |    4.632417ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 15:58:14 | 401 |      913.75µs |             ::1 | GET      "/operations"
+[GIN] 2024/09/11 - 15:58:25 | 200 |     27.5105ms |             ::1 | GET      "/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:12:06 | 200 |      1.5115ms |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:12:06 | 200 |       2.966ms |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:12:06 | 200 |    2.107542ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:12:06 | 200 |    1.832042ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:12:06 | 200 |      246.75µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 16:12:48 | 200 |      477.25µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:12:48 | 304 |     101.791µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:12:48 | 304 |       59.25µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:12:48 | 304 |      43.916µs |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:12:48 | 200 |    2.770083ms |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:13:04 | 200 |     793.833µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:13:04 | 200 |    1.678417ms |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:13:04 | 200 |    1.145833ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:13:04 | 200 |    1.810167ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:13:04 | 200 |     286.208µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:22:09 | 200 |      875.25µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:22:09 | 200 |     529.667µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:22:09 | 200 |     541.542µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:22:09 | 200 |    1.297833ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:22:09 | 200 |     293.542µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 16:22:18 | 404 |       4.625µs |             ::1 | GET      "/operations/1"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:23:23 | 200 |     591.541µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:23:23 | 200 |     453.167µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:23:23 | 200 |     558.042µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:23:23 | 200 |    1.941667ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:23:23 | 200 |     631.625µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 16:23:24 | 200 |      52.333µs |             ::1 | GET      "/swagger/favicon-16x16.png"
+[GIN] 2024/09/11 - 16:23:29 | 401 |     147.041µs |             ::1 | GET      "/api/operations/1"
+[GIN] 2024/09/11 - 16:23:37 | 200 |      8.9625ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 16:24:02 | 200 |    6.115292ms |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 16:24:10 | 500 |   49.000583ms |             ::1 | GET      "/api/operations/1"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:28:15 | 200 |     558.625µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:28:15 | 200 |      329.25µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:28:15 | 200 |     356.042µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:28:15 | 200 |    1.030917ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:28:15 | 200 |     553.584µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 16:28:26 | 200 |   16.194416ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 16:29:19 | 201 |     810.833µs |             ::1 | POST     "/api/operations"
+[GIN] 2024/09/11 - 16:29:26 | 200 |   17.024916ms |             ::1 | GET      "/api/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:30:45 | 201 |   37.127583ms |             ::1 | POST     "/api/operations"
+[GIN] 2024/09/11 - 16:30:52 | 200 |    3.641792ms |             ::1 | GET      "/api/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:38:56 | 200 |     682.708µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:38:56 | 200 |    2.244709ms |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:38:56 | 200 |       518.5µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:38:56 | 200 |     2.56925ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:38:56 | 200 |     312.958µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:40:07 | 200 |    1.054291ms |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:40:07 | 200 |      355.25µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:40:07 | 200 |     394.875µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:40:07 | 200 |    1.637458ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:40:07 | 200 |     335.167µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 16:40:21 | 200 |     598.083µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:40:21 | 304 |     162.208µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:40:21 | 304 |     191.834µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:40:21 | 304 |      23.458µs |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:40:21 | 200 |     196.125µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:40:51 | 200 |    1.098416ms |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:40:51 | 200 |     963.958µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:40:51 | 200 |     318.125µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:40:51 | 200 |    1.319584ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:40:51 | 200 |     303.542µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/operations/:id       --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:41:34 | 200 |     774.875µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:41:34 | 200 |     377.667µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:41:34 | 200 |    1.414416ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:41:34 | 200 |    3.231417ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:41:34 | 200 |     276.417µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 16:41:44 | 401 |     804.875µs |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 16:41:54 | 200 |   17.520042ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 16:42:12 | 200 |   28.442209ms |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 16:42:49 | 403 |     468.375µs |             ::1 | PUT      "/api/operations/2"
+[GIN] 2024/09/11 - 16:43:18 | 200 |   13.492834ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 16:43:33 | 200 |   58.524708ms |             ::1 | PUT      "/api/operations/2"
+[GIN] 2024/09/11 - 16:43:40 | 200 |    2.234417ms |             ::1 | GET      "/api/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 16:48:47 | 200 |     242.167µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 16:48:48 | 200 |     806.917µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 16:48:48 | 200 |     339.833µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 16:48:48 | 200 |    1.534667ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 16:48:48 | 200 |     478.375µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 17:04:49 | 200 |       636.5µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 17:04:49 | 200 |     354.791µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 17:04:49 | 200 |     370.417µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 17:04:49 | 200 |    2.014625ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 17:04:49 | 200 |     522.667µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 18:18:09 | 404 |         208ns |             ::1 | GET      "/"
+[GIN] 2024/09/11 - 18:19:14 | 201 |    111.0365ms |             ::1 | POST     "/auth/sign-up"
+[GIN] 2024/09/11 - 18:19:32 | 200 |    8.264916ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 18:21:00 | 200 |   26.007292ms |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 18:21:38 | 201 |   61.513542ms |             ::1 | POST     "/api/operations"
+[GIN] 2024/09/11 - 18:21:44 | 200 |    1.613042ms |             ::1 | GET      "/api/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 18:38:05 | 200 |     578.041µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 18:38:05 | 200 |     275.458µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 18:38:05 | 200 |     407.292µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 18:38:05 | 200 |    1.247708ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 18:38:05 | 200 |     285.791µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 18:46:10 | 200 |     744.042µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 18:46:10 | 200 |     350.375µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 18:46:10 | 200 |       1.097ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 18:46:10 | 200 |     688.833µs |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 18:46:10 | 200 |     354.916µs |             ::1 | GET      "/swagger/doc.json"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 18:54:46 | 200 |     765.042µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 18:54:46 | 200 |     245.167µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 18:54:46 | 200 |   10.619042ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 18:54:46 | 200 |    5.043917ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 18:54:46 | 200 |     454.958µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 18:54:46 | 200 |     140.125µs |             ::1 | GET      "/swagger/favicon-16x16.png"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN] 2024/09/11 - 19:04:33 | 200 |     780.041µs |             ::1 | GET      "/swagger/index.html"
+[GIN] 2024/09/11 - 19:04:33 | 200 |      365.25µs |             ::1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2024/09/11 - 19:04:33 | 200 |     427.917µs |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2024/09/11 - 19:04:33 | 200 |    3.805958ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2024/09/11 - 19:04:34 | 200 |     323.709µs |             ::1 | GET      "/swagger/doc.json"
+[GIN] 2024/09/11 - 19:04:34 | 200 |      86.625µs |             ::1 | GET      "/swagger/favicon-32x32.png"
+[GIN] 2024/09/11 - 19:07:14 | 200 |   27.555708ms |             ::1 | POST     "/auth/sign-in"
+[GIN] 2024/09/11 - 19:07:37 | 200 |     24.8105ms |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 19:08:20 | 200 |   10.240666ms |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 19:08:22 | 200 |   12.598792ms |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 19:08:23 | 200 |    1.209375ms |             ::1 | GET      "/api/operations"
+[GIN] 2024/09/11 - 19:08:36 | 200 |    2.048791ms |             ::1 | GET      "/api/operations"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> coinkeeper/pkg/controllers.PingPong (3 handlers)
+[GIN-debug] POST   /auth/sign-up             --> coinkeeper/pkg/controllers.SignUp (3 handlers)
+[GIN-debug] POST   /auth/sign-in             --> coinkeeper/pkg/controllers.SignIn (3 handlers)
+[GIN-debug] GET    /api/users                --> coinkeeper/pkg/controllers.GetAllUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> coinkeeper/pkg/controllers.GetUserByID (4 handlers)
+[GIN-debug] POST   /api/users                --> coinkeeper/pkg/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> coinkeeper/pkg/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PATCH  /api/users/:id            --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operations           --> coinkeeper/pkg/controllers.GetAllOperations (4 handlers)
+[GIN-debug] POST   /api/operations           --> coinkeeper/pkg/controllers.CreateOperation (4 handlers)
+[GIN-debug] GET    /api/operations/:id       --> coinkeeper/pkg/controllers.GetOperationByID (4 handlers)
+[GIN-debug] PUT    /api/operations/:id       --> coinkeeper/pkg/controllers.UpdateOperation (4 handlers)
+[GIN-debug] DELETE /api/operations/:id       --> coinkeeper/pkg/controllers.DeleteOperation (4 handlers)
+[GIN-debug] GET    /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-types      --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-types/:id  --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] POST   /api/operation-categories --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] GET    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] PUT    /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)
+[GIN-debug] DELETE /api/operation-categories/:id --> coinkeeper/pkg/controllers.checkUserAuthentication (3 handlers)

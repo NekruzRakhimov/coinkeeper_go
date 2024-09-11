@@ -2,7 +2,10 @@ package controllers
 
 import (
 	"coinkeeper/configs"
+	_ "coinkeeper/docs"
 	"github.com/gin-gonic/gin"
+	swaggerFiles "github.com/swaggo/files"
+	"github.com/swaggo/gin-swagger"
 	"net/http"
 )
 
@@ -10,6 +13,7 @@ func InitRoutes() *gin.Engine {
 	router := gin.Default()
 	gin.SetMode(configs.AppSettings.AppParams.GinMode)
 
+	router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	router.GET("/ping", PingPong)
 
 	auth := router.Group("/auth")
@@ -18,7 +22,9 @@ func InitRoutes() *gin.Engine {
 		auth.POST("/sign-in", SignIn)
 	}
 
-	userG := router.Group("/users")
+	apiG := router.Group("/api", checkUserAuthentication)
+
+	userG := apiG.Group("/users")
 	{
 		userG.GET("", GetAllUsers)
 		userG.GET("/:id", GetUserByID)
@@ -28,20 +34,16 @@ func InitRoutes() *gin.Engine {
 		userG.PATCH("/:id")
 	}
 
-	/*
-		/operations -> checkUserAuthentication -> GetAllOperations
-	*/
-	operationsG := router.Group("/operations", checkUserAuthentication)
+	operationsG := apiG.Group("/operations")
 	{
 		operationsG.GET("", GetAllOperations)
 		operationsG.POST("", CreateOperation)
 		operationsG.GET("/:id", GetOperationByID)
 		operationsG.PUT("/:id", UpdateOperation) // admin permitted only
-		operationsG.DELETE("/:id")
-		operationsG.PATCH("/:id")
+		operationsG.DELETE("/:id", DeleteOperation)
 	}
 
-	operationTypesG := router.Group("/operation-types")
+	operationTypesG := apiG.Group("/operation-types")
 	{
 		operationTypesG.GET("")
 		operationTypesG.POST("")
@@ -50,7 +52,7 @@ func InitRoutes() *gin.Engine {
 		operationTypesG.DELETE("/:id")
 	}
 
-	operationCategoriesG := router.Group("/operation-categories")
+	operationCategoriesG := apiG.Group("/operation-categories")
 	{
 		operationCategoriesG.GET("")
 		operationCategoriesG.POST("")

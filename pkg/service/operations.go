@@ -1,8 +1,10 @@
 package service
 
 import (
+	"coinkeeper/errs"
 	"coinkeeper/models"
 	"coinkeeper/pkg/repository"
+	"errors"
 )
 
 func GetAllOperations(userID uint, query string) (operations []models.Operation, err error) {
@@ -17,6 +19,9 @@ func GetAllOperations(userID uint, query string) (operations []models.Operation,
 func GetOperationByID(userID, operationID uint) (o models.Operation, err error) {
 	o, err = repository.GetOperationByID(userID, operationID)
 	if err != nil {
+		if errors.Is(err, errs.ErrRecordNotFound) {
+			return o, errs.ErrOperationNotFound
+		}
 		return models.Operation{}, err
 	}
 
@@ -36,5 +41,12 @@ func UpdateOperation(o models.Operation) error {
 		return err
 	}
 
+	return nil
+}
+
+func DeleteOperation(operationID int, userID uint) error {
+	if err := repository.DeleteOperation(operationID, userID); err != nil {
+		return err
+	}
 	return nil
 }

@@ -13,7 +13,7 @@ type Operation struct {
 	Amount        float64           `json:"amount"`
 	Description   string            `json:"description"`
 	User          User              `json:"-" gorm:"foreignKey:UserID;references:ID"`
-	UserID        uint              `json:"user_id"`
+	UserID        uint              `json:"-"`
 	CreatedAt     time.Time         `json:"created_at"`
 	UpdatedAt     time.Time         `json:"-"`
 	IsDeleted     bool              `json:"-" gorm:"default:false"`

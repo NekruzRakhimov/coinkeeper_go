@@ -13,3 +13,14 @@ type User struct {
 	CreatedAt time.Time `json:"created_at" gorm:"autoCreateTime"`
 	UpdatedAt time.Time `json:"updated_at" gorm:"autoUpdateTime"`
 }
+
+type SwagUser struct {
+	FullName string `json:"full_name"`
+	Username string `json:"username" gorm:"unique"`
+	Password string `json:"password" gorm:"not null"`
+}
+
+type SignInInput struct {
+	Username string `json:"username" gorm:"unique"`
+	Password string `json:"password" gorm:"not null"`
+}

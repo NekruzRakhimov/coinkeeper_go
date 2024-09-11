@@ -9,5 +9,6 @@ var (
 	ErrOperationNotFound           = errors.New("ErrOperationNotFound")
 	ErrIncorrectUsernameOrPassword = errors.New("ErrIncorrectUsernameOrPassword")
 	ErrRecordNotFound              = errors.New("ErrRecordNotFound")
+	ErrUserNotFound                = errors.New("ErrUserNotFound")
 	ErrSomethingWentWrong          = errors.New("ErrSomethingWentWrong")
 )

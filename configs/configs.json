@@ -1,5 +1,5 @@
 {
-  "auth": {
+  "auth_params": {
     "jwt_secret_key": "klakjl;djsjk;dsfj;lsdfl;kjdsf;",
     "jwt_ttl_minutes": 60
   },

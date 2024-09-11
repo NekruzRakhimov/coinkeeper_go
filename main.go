@@ -13,15 +13,19 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+	"time"
 )
 
-/*
-Vasya - 1111
-Sadam - 2222
+// @title Coinkeeper API
+// @version 1.0
+// @description API Server for Coinkeeper Application
 
-account(1111) - 100c
-account(2222) + 100c
-*/
+// @host localhost:8181
+// @BasePath /
+
+// @securityDefinitions.apikey ApiKeyAuth
+// @in header
+// @name Authorization
 
 func main() {
 	// Загрузка .env файла
@@ -75,7 +79,11 @@ func main() {
 	}
 	fmt.Println("Соединение с БД успешно закрыто")
 
-	if err = mainServer.Shutdown(context.Background()); err != nil {
+	// Используем контекст с тайм-аутом для завершения работы сервера
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+
+	if err = mainServer.Shutdown(ctx); err != nil {
 		log.Fatalf("Ошибка при завершении работы сервера: %s", err)
 	}
 
