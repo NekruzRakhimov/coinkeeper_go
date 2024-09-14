@@ -30,17 +30,3 @@ func handleError(c *gin.Context, err error) {
 		c.JSON(http.StatusInternalServerError, newErrorResponse(errs.ErrSomethingWentWrong.Error()))
 	}
 }
-
-type defaultResponse struct {
-	Message string `json:"message"`
-}
-
-func newDefaultResponse(message string) defaultResponse {
-	return defaultResponse{
-		Message: message,
-	}
-}
-
-type accessTokenResponse struct {
-	AccessToken string `json:"access_token"`
-}
